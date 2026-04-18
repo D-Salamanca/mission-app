@@ -1,0 +1,144 @@
+/* HomePage.css */
+.home-toolbar {
+  --background: #1a1a2e;
+  --color: white;
+}
+.home-content {
+  --background: #f0f2f5;
+}
+.stats-header {
+  background: #1a1a2e;
+  padding: 1.5rem 1.25rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.greeting-text {
+  margin: 0;
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.6);
+}
+.user-email {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.points-badge {
+  background: #e94560;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+.points-number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  display: block;
+}
+.points-label {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.8);
+}
+.progress-section {
+  background: white;
+  margin: -1rem 1rem 0;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+.main-progress {
+  height: 8px;
+  border-radius: 4px;
+}
+.progress-percent {
+  margin: 0.4rem 0 0;
+  font-size: 0.8rem;
+  color: #999;
+  text-align: right;
+}
+.missions-list {
+  padding: 1rem;
+}
+.section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 0.75rem;
+}
+.mission-card {
+  border-radius: 12px;
+  margin-bottom: 0.75rem;
+}
+.mission-card.completed {
+  opacity: 0.8;
+}
+.mission-card.locked {
+  opacity: 0.5;
+}
+.mission-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0.75rem;
+}
+.mission-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+.mission-icon-wrap {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: #f0f0ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.mission-icon {
+  font-size: 1.4rem;
+}
+.mission-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0 0 0.2rem;
+  color: #1a1a2e;
+}
+.mission-desc {
+  font-size: 0.75rem;
+  color: #999;
+  margin: 0;
+}
+.mission-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+.points-badge-sm {
+  font-size: 0.75rem;
+}
+.mission-status {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+.status-done { color: #2dd36f; }
+.status-locked { color: #aaa; }
+.status-pending { color: #3880ff; }
+.total-section {
+  padding: 0 1rem 2rem;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}

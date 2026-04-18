@@ -1,0 +1,148 @@
+/* ResultsPage.css */
+.results-toolbar {
+  --background: #1a1a2e;
+  --color: white;
+}
+.results-content {
+  --background: #f0f2f5;
+}
+.my-results-header {
+  background: #1a1a2e;
+  padding: 1.5rem;
+  text-align: center;
+  color: white;
+}
+.avatar-large {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #e94560;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: white;
+  margin: 0 auto 0.5rem;
+}
+.my-email {
+  margin: 0 0 0.75rem;
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.6);
+}
+.big-points {
+  margin-bottom: 1rem;
+}
+.big-number {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  display: block;
+}
+.big-label {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.5);
+}
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+.stat-box {
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  padding: 0.6rem 0.4rem;
+}
+.stat-val {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+}
+.stat-lbl {
+  font-size: 0.68rem;
+  color: rgba(255,255,255,0.5);
+}
+.status-badge {
+  background: rgba(255,255,255,0.12);
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: white;
+  display: inline-block;
+}
+.results-section {
+  background: white;
+  margin: 1rem;
+  border-radius: 14px;
+  padding: 1rem;
+}
+.section-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 0.75rem;
+}
+.result-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.88rem;
+  color: #555;
+}
+.result-row:last-child {
+  border-bottom: none;
+}
+.result-row.completed {
+  color: #1a1a2e;
+}
+.result-name {
+  flex: 1;
+}
+.result-pts {
+  font-weight: 600;
+  color: #bbb;
+}
+.result-pts.earned {
+  color: #2dd36f;
+}
+.ranking-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.6rem 0.75rem;
+  border-radius: 10px;
+  background: #f8f8f8;
+  margin-bottom: 6px;
+  font-size: 0.88rem;
+}
+.ranking-row.is-me {
+  background: #fff0f2;
+  border: 1.5px solid #e94560;
+}
+.rank-medal {
+  min-width: 24px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+.rank-email {
+  flex: 1;
+  font-weight: 500;
+  color: #333;
+}
+.you-badge {
+  background: #e94560;
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 8px;
+}
+.rank-pts {
+  font-weight: 700;
+  color: #1a1a2e;
+}
